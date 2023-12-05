@@ -1,0 +1,8 @@
+body {
+  background: url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876003.jpg?w=1380&t=st=1701688820~exp=1701689420~hmac=c3477ca54bd2409b8fa0f9188b1c191001f79563ae28ff3ab17703a08dd2017d) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}

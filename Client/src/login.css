@@ -1,0 +1,128 @@
+/* 
+.left{
+    padding: 10px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;    
+    width: 100%;
+  }
+
+  .message{
+    text-align: center;
+    font-size: small;
+    background-color : #ffece5;
+    color :red;
+    width:20%;
+  }
+
+  .Login-component {
+    height: 514px;
+    width: 100%;
+    background: url(https://www.fool.ca/wp-content/uploads/2019/04/op-background-tech-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #3494e6, #ec6ead);
+  min-height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+/* .makeStyles-root-1 {
+  display: none;
+} */
+
+
+.left {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.left h2 {
+  color: #ffcc29;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.left form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left label {
+  margin-bottom: 8px;
+  color: #ffcc29;
+}
+
+.left input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.left input::placeholder {
+  color: #ccc;
+}
+
+.left input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.message {
+  color: #ff4d4d;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+.left .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left input[type="submit"] {
+  cursor: pointer;
+  background: #ffcc29;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1.2em;
+  transition: background 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.left input[type="submit"]:hover {
+  background: #ff9900;
+}
+
+.or {
+  color: #ccc;
+}
+
+.left a {
+  color: #3494e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.left a:hover {
+  text-decoration: underline;
+}
